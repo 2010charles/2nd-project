@@ -47,3 +47,43 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+@media (max-width: 768px) {
+    .maincontent {
+      font-size: 20px;
+      margin-left: 0;
+      top: 0;
+    }
+  
+    .btn {
+      margin-left: 0;
+      top: 0;
+    }
+  
+    .header3 {
+      font-size: 20px;
+    }
+  
+    .div1 {
+      flex-direction: column;
+    }
+  
+    .headerRepeate {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .paragraph {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    /* Additional styles for complex media query */
+    .maincontent p {
+      font-size: 16px;
+    }
+  
+    .maincontent h5 {
+      font-size: 18px;
+    }
+  }
+  

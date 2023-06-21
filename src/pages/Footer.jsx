@@ -14,7 +14,7 @@ function Footer() {
     <p className='footerParagraph'>provision of quality and decentralized tech training</p>
     </div>
     <div className='company'>
-    <h4 className='footheader'> About Us</h4>
+    <h4 className='footheader'> Company</h4>
      <ol>
       <li>Home</li>
       <li>About</li>
@@ -23,7 +23,7 @@ function Footer() {
      </ol>
     </div>
     <div className='social'>
-    <h4 className='footheader'> About Us</h4>
+    <h4 className='footheader'> Social</h4>
     <ol>
       <li>Twitter</li>
       <li>Facebook</li>
