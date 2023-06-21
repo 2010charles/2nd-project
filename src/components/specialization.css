@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+   /* margin: 25px 40px;*/
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: gainsboro ;
+   /* gap: 20px;*/
+   border-radius: 5px;
+   animation-name: changecolor;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+
+}
+@keyframes changecolor{
+    0%{
+        background-color: rgb(251, 0, 255);
+    }
+    50%{
+        background-color: rgb(9, 192, 224);
+    }
+    100%{
+        background-color: rgb(14, 118, 169);
+    }
+}
+ul li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 1rem;
+    margin-top: 5px;
+
+}
+.fronted{
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 350px;
+}
+.Backend{
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 350px;
+}
+.database{
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 350px;
+    margin-right: 10px;
+}
+.mobile{
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 350px;
+}
+.MachineLearning{
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 350px;
+}
+.System-Development{
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 350px;
+    margin-right: 10px;
+}
+.Networking{
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 350px;
+}
+.specializaionHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color:purple ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.specializationList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specializationBotttomElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 17px;
+    color:purple ;
+    background-color: rgb(17, 214, 240);
+    width: 100%;
+    height: 70px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}

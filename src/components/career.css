@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flag{
+    color: rgb(243, 32, 176);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.careercontent{
+    line-height: 2.5rem;
+    font-size: 17px;
+    margin: 0 40px;
+}
+.careerinforheader1{
+    color: rgb(93, 22, 180);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrerinfor{
+    background-color: rgb(98, 95, 95);
+    height: 600px;
+    width: 100%;
+}
+/*.career-software{
+    background-color: grey;
+    margin: 20px 20px;
+    border-radius: 10px;
+}*/
+.allCareerFormate{
+    background-color: grey;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+.carrerinfor{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    margin: 30px 40pxpx;
+
+}
+.headertop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color:purple ;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color:purple ;
+
+}

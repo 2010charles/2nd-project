@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-page{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(6, 109, 127);
+    /*margin-bottom: 10px;*/ 
+    height: 350px;
+}
+.footheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+.footerParagraph{
+    margin-top: 15px;
+
+}
+.footheader1{
+    color: aqua;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.footheader{
+    color: aqua;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.footheader2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -40px;
+}

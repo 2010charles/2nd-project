@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerRepeate1{
+    color: rgb(14, 246, 223);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about1{
+    font-size: 17px;
+    letter-spacing: 0.05rem;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.list{
+    margin-left: 80px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.towCircle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.mv{
+    color:rgb(243, 32, 176) ;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.mc1{
+    color: white;
+    background-color: aqua;
+    height: 300px;
+    width: 350px;
+    border-radius: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission{
+    margin-left: 150px;
+}
+.missionconten{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(243, 32, 176) ;
+}
+.firstcircle{
+    margin-right: 100px;
+ 
+}
+.vision{
+    margin-left: 200px;
+}
+.mv1{
+    margin-left: 350px;
+    color:rgb(243, 20, 202) ;
+    font-size: 20px;
+}
+.problems{
+    background-color: rgb(195, 191, 191);
+    margin-top: 20px;
+}
+.list2{
+  margin-left: 400px;
+  font-size: 17px;
+}
+.list3{
+    margin-top: 20px;
+}
+.solution{
+    margin-top: 20px;
+}
+.goal{
+    margin-top: 50px;
+}
