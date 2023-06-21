@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   color: white;
+   width: 40%;
+   height: 450px;
+   margin-left: 350px;
+   margin-top: 50px;
+   border-radius: 20px;
+}
+.registerpart{
+    margin-bottom: 40px;
+    color: rgb(93, 22, 180);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.3rem;
+}
+.name{
+    padding: 10px 15px;
+}
+.email{
+    padding: 10px 15px;
+}
+.password{
+    padding: 10px 15px;
+}
+.age{
+    padding: 10px 15px;
+}
+.ConfirmPassward{
+    padding: 10px 15px;
+}
+input{
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.Register{
+    padding: 10px 150px;
+    color: aqua;
+    font-size: 20px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Register:hover{
+    background-color: burlywood;
+    color: red;
+}
